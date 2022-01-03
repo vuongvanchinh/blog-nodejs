@@ -1,0 +1,29 @@
+{
+  "name": "first-app",
+  "version": "1.0.0",
+  "description": "blog app",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuongvanchinh/blog-nodejs.git"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "ChinhVuong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vuongvanchinh/blog-nodejs/issues"
+  },
+  "homepage": "https://github.com/vuongvanchinh/blog-nodejs#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
